@@ -1,0 +1,9 @@
+Une question ? Envoyez nous un message !
+
+Nom : <text> max 20 caractères (champ obligatoire = required) (étoile rouge en span + color = red)
+Prénom : <text> et pareil qu’au dessus.
+Adresse mail : <email> champ obligatoire avec étoile rouge en <span>
+Votre message : <textarea> 20 x 70
+Recevoir un e-mail de confirmation ? <checkbox> 
+
+Bouton Envoyer 
