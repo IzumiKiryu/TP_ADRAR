@@ -5,23 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Nous contacter</title>
 </head>
 <body>
-    <fieldset>
-          <form action="post"></form>
-             <label for="Prénom">Prénom</label>
-               <input type="text" maxlength="20" minlength="2" placeholder="mon prénom" name="Prénom" id="Prénom" required><span id="required">*</span><br>
+    <div id="container">
+        <div id="debut_contact">
+        <p>Contactez nous</p>
+        <img src="./images/Logo_adrar_pole_num.jpg" alt="Logo_adrar_pole_num">
+        </div>
+        <div id="my_form">
+            <form action="post">
+            <fieldset>
+            
+             <div id="Prenom"><label for="Prénom">Prénom</label>
+               <input type="text" maxlength="20" minlength="2" placeholder="mon prénom" name="Prenom" required><span id="required">*</span><br></div>
                     <label for="Nom">Nom</label>
                         <input type="text" maxlength="20" minlength="2" placeholder="mon nom" name="Nom" id="Nom" required><span id="required">*</span><br>
                             <label for="Email">Email</label>
                                  <input type="text" placeholder="monemail@fai.com" name="Email" id="Email"><span id="required">*</span><br>
                             <label for="Commentaire">Votre message</label><br>
                         <textarea name="commentaire" cols="70" rows="20">J'aimerais savoir ...</textarea><br>
-                        <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Recevoir un e-mail de confirmation ?</label>
-                        <input type="button" name="Envoyer" value="Envoyer"><br>
+                        <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Recevoir un e-mail de confirmation ?</label><br>
+                        
                     <label for="date">Date de mon commentaire</label>
                 <input type="date" id="date"><br>
-    </fieldset>
+                <input type="button" name="Envoyer" value="Envoyer"><input type="reset" name="Reset" value="Reset"><br>
+            </fieldset>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
